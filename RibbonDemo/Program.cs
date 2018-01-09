@@ -15,7 +15,8 @@ namespace RibbonDemo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new BlackForm());
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
+            Application.Run(new Form2());
         }
     }
 }

@@ -48,11 +48,20 @@
     <Compile Include="BlackForm.Designer.cs">
       <DependentUpon>BlackForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BlackForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>BlackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +97,10 @@
     <ProjectReference Include="..\System.Windows.Forms.Ribbon\System.Windows.Forms.Ribbon.csproj">
       <Project>{46A18A55-5AE8-49CE-91CD-C7421B642E7E}</Project>
       <Name>System.Windows.Forms.Ribbon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TabControlEx\TabControlEx.csproj">
+      <Project>{9DF2B67B-5453-42B5-8CFC-3AB8C1CF3317}</Project>
+      <Name>TabControlEx</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -290,6 +303,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pageblank16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\logo108.png" />
+    <Content Include="Resources\york-logo-32.png" />
+    <Content Include="Resources\york-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1683,7 +1683,7 @@ namespace RibbonDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 244);
+            this.ClientSize = new System.Drawing.Size(931, 671);
             this.Controls.Add(this.ribbon1);
             this.Name = "MainForm";
             this.Text = "Ribbon Demo Form";
